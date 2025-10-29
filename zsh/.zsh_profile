@@ -26,6 +26,7 @@ alias ip6="ip -c -p -h -br -f inet6 a"
 alias mysql="mariadb --skip-ssl"
 alias nn="newnote"
 alias umountmedia="sudo umount /mnt/media"
+alias git-status="git fetch --quiet && git status"
 
 # Colored man pages
 export MANPAGER="less -R --use-color -Dd+r -Du+b"
